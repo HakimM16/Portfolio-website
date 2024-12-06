@@ -58,18 +58,22 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
+    height: 50px;
 }
 
 
 .main {
-    position: relative;
+    position: fixed;
+    width: 100%;
     top: 80px;
     background-image: url(wallpaper.webp);
     background-size: cover;
-    height: 800px
+    height: 800px;
+    overflow: scroll;
 }
 
 .sections {
     position: relative;
     top: 100px;
+    padding-bottom: 50px;
 }
