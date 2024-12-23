@@ -7,10 +7,6 @@ body {
     overflow: hidden; /* Prevent scrolling during loading */
 }
 
-.highlighter {
-    color: #fff;
-    font-weight: 700;
-}
 
 /* Loader Styles */
 .loader-container {
@@ -88,10 +84,6 @@ body {
     color: #fff;
 }
 
-.portfolio-item p {
-    font-size: 1em;
-}
-
 .portfolio-item a {
     text-decoration: none;
     color: #00abf0;
@@ -100,7 +92,7 @@ body {
 
 .portfolio-item a:hover {
     text-decoration: underline;
-    color: #fff;
+    color: #a3d9ff;
     transition: text-decoration .2s ease-in, color .3s ease-in;
 }
 
@@ -108,6 +100,25 @@ body {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+.project-description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #fff;
+    margin-bottom: 1.5em;
+}
+
+.project-description strong {
+    color: #c0c0c0;
+    font-weight: bold;
+}
+
+.highlighter {
+    color: #a3d9ff; /* Use a vibrant color for emphasis */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 
 /* Fade-in Animation */
 @keyframes fadeIn {
